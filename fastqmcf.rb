@@ -1,6 +1,6 @@
 require 'formula'
 #adpated from https://github.com/galaxyproject/homebrew-toolshed/blob/master/jjohnson_fastqmcf.rb
-class fastqmcf < Formula
+class Fastqmcf < Formula
   version "1.0"
   # Recipe auto-generate from repository https://toolshed.g2.bx.psu.edu/jjohnson/fastq_mcf
   # Tool Shed Readme:
