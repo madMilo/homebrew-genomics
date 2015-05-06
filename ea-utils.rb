@@ -1,8 +1,8 @@
 require 'formula'
-#adpated from https://github.com/galaxyproject/homebrew-toolshed/blob/master/jjohnson_fastqmcf.rb
-class  EaUtils < Formula
+
+class EaUtils < Formula
   version "1.1.2-484"
-  # Recipe auto-generate from repository https://toolshed.g2.bx.psu.edu/jjohnson/fastq_mcf
+  
   option "without-architecture", "Build without allowing architecture information (to force source install when binaries are available)."
                
   url "http://ea-utils.googlecode.com/files/ea-utils.1.1.2-484.tar.gz"
