@@ -2,8 +2,8 @@ require 'formula'
 
 class Lap < Formula
   head "svn://svn.code.sf.net/p/assembly-eval/code/trunk/src", :using => :svn
-  
-  depends_on "argp-standalone"
+ 
+  depends_on "argp-standalone" if OS.mac?
 
   def install
     cd "dynamic" do
